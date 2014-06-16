@@ -14,7 +14,7 @@ using namespace MPNG;
 extern const HAL& hal;
 
 // PPM_SUM(CPPM) or PWM Signal processing
-//#define SERIAL_PPM SERIAL_PPM_ENABLED
+#define SERIAL_PPM SERIAL_PPM_DISABLED
 /*
 	SERIAL_PPM_DISABLED				// Separated channel signal (PWM) on A8-A15 pins
 	SERIAL_PPM_ENABLED				// DEFAULT!!! For all boards, PPM_SUM pin is A8

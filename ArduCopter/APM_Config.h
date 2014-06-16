@@ -3,7 +3,7 @@
 // User specific config file.  Any items listed in config.h can be overridden here.
 
 // Select Megapirate board type:
-//#define MPNG_BOARD_TYPE   CRIUS_V1
+#define MPNG_BOARD_TYPE   CRIUS_V1
 /*
   RCTIMER_CRIUS_V2    -- (DEFAULT!!!) Use ONLY for RCTimer CRIUS V2 board
   CRIUS_V1            -- RCTimer CRIUS V1(1.1) board and all HobbyKing AIOP boards
@@ -14,10 +14,10 @@
  */
 
 // GPS port speed (Serial2) 38400 by default
-//#define SERIAL2_BAUD 38400
+#define SERIAL2_BAUD 9600
 
 // GPS driver selection
-//#define GPS_PROTOCOL GPS_PROTOCOL_NONE
+#define GPS_PROTOCOL GPS_PROTOCOL_UBLOX
 /*
 	GPS_PROTOCOL_AUTO   (Default)
 	GPS_PROTOCOL_NONE
@@ -31,7 +31,7 @@
 */
 
 // QuadCopter selected by default
-//#define FRAME_CONFIG HEXA_FRAME
+#define FRAME_CONFIG TRI_FRAME
 /*
  *  options:
  *  QUAD_FRAME
